@@ -115,7 +115,7 @@ export default function Home() {
           [blob.type]: blob
         })
       ]);
-
+      setIsCopiedQR(true)
 
     } catch (err : unknown) {
       toast.error(t.qrCopiedError);
