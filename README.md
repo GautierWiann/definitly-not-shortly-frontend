@@ -50,9 +50,9 @@ npm run dev
 
 ---
 
-## 🌍 SEO & Localisation (GEO Targeting)
+## 🌍 SEO 
 
-Le projet est optimisé pour un référencement local (Lille/France) et international (FR/EN) :
+Le projet est optimisé pour un référencement :
 
 * **Performance :** Optimisation des Core Web Vitals via `next/image` et séparation Server/Client Components.
 
