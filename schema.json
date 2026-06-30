@@ -1,0 +1,8 @@
+{
+  "@context": "https://schema.org",
+  "@type": "SoftwareApplication",
+  "name": "Definitely Not Shortly",
+  "applicationCategory": "DeveloperApplication",
+  "operatingSystem": "Web",
+  "description": "Service de raccourcissement d'URLs sécurisé avec génération de QR Code et analytics."
+}

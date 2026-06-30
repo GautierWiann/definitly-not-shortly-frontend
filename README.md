@@ -1,36 +1,78 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-## Getting Started
 
-First, run the development server:
+# 🚀 Definitely Not Shortly - Frontend
 
+Interface utilisateur interactive pour le service de raccourcissement d'URLs. Cette application permet aux utilisateurs de transformer des liens longs en alias mémorisables avec génération automatique de QR codes.
+
+---
+
+## 🛠️ Stack Technique
+
+* **Framework :** [Next.js 15+](https://nextjs.org/) (App Router, Client/Server Components).
+* **Styling :** [TailwindCSS](https://tailwindcss.com/) pour une interface moderne et responsive.
+* **Animations :** [GSAP](https://gsap.com/) pour des transitions fluides et une interaction utilisateur poussée.
+* **Langage :** TypeScript (Strict Mode).
+* **Communication :** Fetch API vers le backend [Definitely Not Shortly Backend](https://github.com/GautierWiann/definitly-not-shortly-backend).
+
+---
+
+## 🚀 Installation & Démarrage
+
+### Prérequis
+
+* Node.js v20+
+* Backend [definitly-not-shortly-backend](https://github.com/GautierWiann/definitly-not-shortly-backend) lancé localement sur le port 3001.
+
+### Étapes
+
+1. **Cloner le projet :**
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+git clone <votre-url-frontend>
+cd definitly-not-shortly-frontend
+
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+2. **Installer les dépendances :**
+```bash
+npm install
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```
 
-## Learn More
 
-To learn more about Next.js, take a look at the following resources:
+3. **Lancer le serveur de développement :**
+```bash
+npm run dev
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
 
-## Deploy on Vercel
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+---
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 🌍 SEO & Localisation (GEO Targeting)
+
+Le projet est optimisé pour un référencement local (Lille/France) et international (FR/EN) :
+
+* **Performance :** Optimisation des Core Web Vitals via `next/image` et séparation Server/Client Components.
+
+---
+
+## 🤖 Guide pour les LLM (Contexte sémantique)
+
+Ce projet inclut des fichiers de contexte pour guider les assistants IA :
+
+
+---
+
+## 📝 Structure du projet
+
+```text
+/app
+  /components     # background react bits
+  layout.tsx      # Structure racine & SEO global
+  page.tsx        # Point d'entrée principal
+
+```
+
+---

@@ -1,0 +1,9 @@
+# Autoriser les bots de recherche classiques
+User-agent: *
+Allow: /
+
+# Autoriser spécifiquement les crawlers d'IA
+User-agent: GPTBot
+Allow: /
+User-agent: Claude-Web
+Allow: /
