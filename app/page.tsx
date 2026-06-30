@@ -70,6 +70,8 @@ export default function Home() {
       }
 
       setResult(data as UrlResult);
+      setCustomAlias("")
+      setOriginalUrl("")
     } catch (err: unknown) {
       if (err instanceof Error) {
         toast.error(err.message);
@@ -86,7 +88,7 @@ export default function Home() {
         // Animation d'entrée : sort de derrière
         gsap.fromTo(aliasRef.current,
           { y: -40, opacity: 0, },
-          { y: 0, opacity: 1, duration: 0.6, height: 'fit-content', ease: "power2.out" }
+          { y: 0, opacity: 1, duration: 0.6, ease: "power2.out" }
         );
       } else {
         // Animation de sortie
